@@ -48,7 +48,7 @@ Rscript -e 'BiocManager::install("scDblFinder")'
 Rscript -e 'BiocManager::install("celda")'
 Rscript -e 'BiocManager::install("DropletUtils")'
 Rscript -e 'BiocManager::install("AnnotationHub")'
-
+Rscript -e 'BiocManager::install("sva")'
 
 # The following requested should have been already installed as dependencies
 # for the modules listed above

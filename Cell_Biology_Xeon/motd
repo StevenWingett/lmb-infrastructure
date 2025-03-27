@@ -18,8 +18,9 @@
   # # Please note that home directories are found at:                         # #
   # # /data3/__HOME_DIRECTORIES/[username]                                    # #
   # #                                                                         # #  
-  # # We recommend that you do not store data in your home directory, but     # # 
-  # # rather store data in either:                                            # #
+  # # Configuration and environment files can be stored in your home          # #
+  # # directory.  However, we recommend that you do not store data in your    # #
+  # # home directory, but rather store data in either:                        # #
   # # /data1/[username]                                                       # #
   # # /data2/[username]                                                       # #
   # # /data3/scratch/[username]                                               # #
@@ -29,7 +30,7 @@
   # # Data stored on this machine is NOT BACKED UP.                           # # 
   # # If you, or someone else accidentally deletes your data, it WILL BE      # # 
   # # PERMANENTLY LOST!                                                       # # 
-  # # Please ensure that your data us backed-up elsewhere.                    # # 
+  # # Please ensure that your data is backed-up elsewhere.                    # # 
   # #                                                                         # #
   # #                    -----------------------------                        # #
   # #                                                                         # # 

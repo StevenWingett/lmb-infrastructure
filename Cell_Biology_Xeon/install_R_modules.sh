@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Script to set up R modules on on Cell Biology Xeon
-# Used for R version 4.4.3 (2025-02-28) -- "Trophy Case"
+# R version 4.5.0 (2025-04-11) -- "How About a Twenty-Six"
 # R was added to the PPA (https://cran.r-project.org/bin/linux/ubuntu/#root) 
 #
 # The exiting R modules were removed (to identify these locations: execute in R .libPaths())
 # R was unistalled (sudo apt remove r-base-core)
 # R was re-installed (sudo apt install r-base-core)
 #
-# Run this script in sudo mode to install R modules globally
+# Run this script in **sudo** mode to install R modules globally
 #
 # Install with Rscript
 Rscript -e 'install.packages("Matrix", dependencies=TRUE)'
@@ -37,7 +37,6 @@ Rscript -e 'install.packages("reticulate", dependencies=TRUE)'
 
 Rscript -e 'install.packages("BiocManager", dependencies=TRUE)'
 
-
 # Install with BiocManager
 Rscript -e 'BiocManager::install("biomaRt")'
 Rscript -e 'BiocManager::install("PCAtools")'
@@ -49,12 +48,8 @@ Rscript -e 'BiocManager::install("celda")'
 Rscript -e 'BiocManager::install("DropletUtils")'
 Rscript -e 'BiocManager::install("AnnotationHub")'
 Rscript -e 'BiocManager::install("sva")'
-
-# The following requested should have been already installed as dependencies
-# for the modules listed above
-#
-# scater
-# BiocParallel
-
+Rscript -e 'BiocManager::install("celldex")'
+Rscript -e 'BiocManager::install("SingleR")'
+Rscript -e 'BiocManager::install("StabMap")'
 
 echo R Modules Installed

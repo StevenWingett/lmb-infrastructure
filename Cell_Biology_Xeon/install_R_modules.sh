@@ -52,4 +52,7 @@ Rscript -e 'BiocManager::install("celldex")'
 Rscript -e 'BiocManager::install("SingleR")'
 Rscript -e 'BiocManager::install("StabMap")'
 
+# Install with Rscript / devtools
+Rscript -e "devtools::install_github('satijalab/seurat-data')"
+
 echo R Modules Installed

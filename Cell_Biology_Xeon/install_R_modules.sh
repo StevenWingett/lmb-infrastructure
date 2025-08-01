@@ -35,6 +35,7 @@ Rscript -e 'install.packages("harmony", dependencies=TRUE)'
 Rscript -e 'install.packages("devtools", dependencies=TRUE)'
 Rscript -e 'install.packages("reticulate", dependencies=TRUE)'
 Rscript -e 'install.packages("UpSetR", dependencies=TRUE)'
+Rscript -e 'install.packages("eulerr", dependencies=TRUE)'
 
 Rscript -e 'install.packages("BiocManager", dependencies=TRUE)'
 

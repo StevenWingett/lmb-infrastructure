@@ -4,5 +4,13 @@
 
 pip install numpy
 pip install pandas
+pip install seaborn
+pip install scanpy
+pip install scipy
 
 pip install cellpose
+ip install triku
+pip install harmonypy
+pip install igraph
+pip install palantir
+pip install scrublet

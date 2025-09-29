@@ -24,7 +24,7 @@ Rscript -e 'install.packages("tidyverse", dependencies=TRUE)'
 Rscript -e 'install.packages("rlist", dependencies=TRUE)'
 Rscript -e 'install.packages("Rtsne", dependencies=TRUE)'
 Rscript -e 'install.packages("umap", dependencies=TRUE)'
-#Rscript -e 'install.packages("httpgd", dependencies=TRUE)'    - Removed from CRAN
+#Rscript -e 'install.packages("httpgd", dependencies=TRUE)' - Removed from CRAN, but installed below using devtools
  
 Rscript -e 'install.packages("ggvenn", dependencies=TRUE)'
 Rscript -e 'install.packages("Seurat", dependencies=TRUE)'
@@ -37,6 +37,11 @@ Rscript -e 'install.packages("devtools", dependencies=TRUE)'
 Rscript -e 'install.packages("reticulate", dependencies=TRUE)'
 Rscript -e 'install.packages("UpSetR", dependencies=TRUE)'
 Rscript -e 'install.packages("eulerr", dependencies=TRUE)'
+
+Rscript -e 'install.packages("RColorBrewer", dependencies=TRUE)'
+Rscript -e 'install.packages("sctransform", dependencies=TRUE)'
+Rscript -e 'install.packages("clustree", dependencies=TRUE)'
+Rscript -e 'install.packages("ggrepel", dependencies=TRUE)'
 
 Rscript -e 'install.packages("BiocManager", dependencies=TRUE)'
 
@@ -55,8 +60,14 @@ Rscript -e 'BiocManager::install("celldex")'
 Rscript -e 'BiocManager::install("SingleR")'
 Rscript -e 'BiocManager::install("StabMap")'
 
+Rscript -e 'BiocManager::install("rWikiPathways")'
+Rscript -e 'BiocManager::install("org.Mm.eg.db")'
+
 # Install with Rscript / devtools
 Rscript -e "devtools::install_github('satijalab/seurat-data')"
 Rscript -e "devtools::install_github('nx10/httpgd')"    # Try this as an alternative to CRAN package previously used
+
+Rscript -e "devtools::install_github('xmc811/Scillus', ref = 'development')"
+Rscript -e "devtools::install_github('jinworks/CellChat')"
 
 echo R Modules Installed

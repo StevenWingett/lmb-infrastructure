@@ -25,6 +25,7 @@ Rscript -e 'install.packages("rlist", dependencies=TRUE)'
 Rscript -e 'install.packages("Rtsne", dependencies=TRUE)'
 Rscript -e 'install.packages("umap", dependencies=TRUE)'
 #Rscript -e 'install.packages("httpgd", dependencies=TRUE)'    - Removed from CRAN
+ 
 Rscript -e 'install.packages("ggvenn", dependencies=TRUE)'
 Rscript -e 'install.packages("Seurat", dependencies=TRUE)'
 Rscript -e 'install.packages("irlba", dependencies=TRUE)'
@@ -56,5 +57,6 @@ Rscript -e 'BiocManager::install("StabMap")'
 
 # Install with Rscript / devtools
 Rscript -e "devtools::install_github('satijalab/seurat-data')"
+Rscript -e "devtools::install_github('nx10/httpgd')"    # Try this as an alternative to CRAN package previously used
 
 echo R Modules Installed

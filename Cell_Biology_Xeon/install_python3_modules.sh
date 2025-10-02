@@ -15,3 +15,4 @@ pip install igraph
 pip install palantir
 pip install scrublet
 pip install scikit-misc
+pip install radian

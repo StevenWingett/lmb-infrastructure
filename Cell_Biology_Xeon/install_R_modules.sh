@@ -71,5 +71,6 @@ Rscript -e "devtools::install_github('nx10/httpgd')"    # Try this as an alterna
 
 Rscript -e "devtools::install_github('xmc811/Scillus', ref = 'development')"
 Rscript -e "devtools::install_github('jinworks/CellChat')"
+Rscript -e "devtools::install_github('immunogenomics/presto')"
 
 echo R Modules Installed

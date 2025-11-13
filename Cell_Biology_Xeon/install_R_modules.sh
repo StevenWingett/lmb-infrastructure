@@ -44,6 +44,7 @@ Rscript -e 'install.packages("clustree", dependencies=TRUE)'
 Rscript -e 'install.packages("ggrepel", dependencies=TRUE)'
 Rscript -e 'install.packages("languageserver", dependencies=TRUE)'
 Rscript -e 'install.packages("lintr", dependencies=TRUE)'
+Rscript -e 'install.packages("this.path", dependencies=TRUE)'
 
 Rscript -e 'install.packages("BiocManager", dependencies=TRUE)'
 

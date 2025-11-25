@@ -46,6 +46,19 @@ Rscript -e 'install.packages("languageserver", dependencies=TRUE)'
 Rscript -e 'install.packages("lintr", dependencies=TRUE)'
 Rscript -e 'install.packages("this.path", dependencies=TRUE)'
 
+Rscript -e 'install.packages("bedr", dependencies=TRUE)'
+Rscript -e 'install.packages("cluster", dependencies=TRUE)'
+Rscript -e 'install.packages("doParallel", dependencies=TRUE)'
+Rscript -e 'install.packages("factoextra", dependencies=TRUE)'
+Rscript -e 'install.packages("foreach", dependencies=TRUE)'
+Rscript -e 'install.packages("ggrastr", dependencies=TRUE)'
+Rscript -e 'install.packages("gtable", dependencies=TRUE)'
+Rscript -e 'install.packages("hdf5r", dependencies=TRUE)'
+Rscript -e 'install.packages("here", dependencies=TRUE)'
+Rscript -e 'install.packages("magrittr", dependencies=TRUE)'
+Rscript -e 'install.packages("mclust", dependencies=TRUE)'
+Rscript -e 'install.packages("tsne", dependencies=TRUE)'
+
 Rscript -e 'install.packages("BiocManager", dependencies=TRUE)'
 
 # Install with BiocManager

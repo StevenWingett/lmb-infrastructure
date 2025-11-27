@@ -79,6 +79,17 @@ Rscript -e 'BiocManager::install("StabMap")'
 Rscript -e 'BiocManager::install("rWikiPathways")'
 Rscript -e 'BiocManager::install("org.Mm.eg.db")'
 
+Rscript -e  'BiocManager::install("BiocGenerics")'
+Rscript -e  'BiocManager::install("DelayedArray")'
+Rscript -e  'BiocManager::install("DelayedMatrixStats")'
+Rscript -e  'BiocManager::install("limma")'
+Rscript -e  'BiocManager::install("lme4")'
+Rscript -e  'BiocManager::install("S4Vectors")'
+Rscript -e  'BiocManager::install("SingleCellExperiment")'
+Rscript -e  'BiocManager::install("SummarizedExperiment")'
+Rscript -e  'BiocManager::install("batchelor")'
+Rscript -e  'BiocManager::install("HDF5Array")'
+
 # Install with Rscript / devtools
 Rscript -e "devtools::install_github('satijalab/seurat-data')"
 Rscript -e "devtools::install_github('nx10/httpgd')"    # Try this as an alternative to CRAN package previously used
@@ -86,5 +97,8 @@ Rscript -e "devtools::install_github('nx10/httpgd')"    # Try this as an alterna
 Rscript -e "devtools::install_github('xmc811/Scillus', ref = 'development')"
 Rscript -e "devtools::install_github('jinworks/CellChat')"
 Rscript -e "devtools::install_github('immunogenomics/presto')"
+
+Rscript -e  'remotes::install_github("bnprks/BPCells/r")'
+Rscript -e 'devtools::install_github("cole-trapnell-lab/monocle3")'
 
 echo R Modules Installed

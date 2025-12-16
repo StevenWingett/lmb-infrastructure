@@ -17,3 +17,4 @@ pip install scrublet
 pip install scikit-misc
 pip install radian
 pip install pybedtools
+pip install pairtools

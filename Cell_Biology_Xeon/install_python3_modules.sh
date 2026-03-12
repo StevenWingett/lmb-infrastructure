@@ -19,4 +19,4 @@ pip install radian
 pip install pybedtools
 pip install pairtools
 
-pip install skimage
+pip install scikit-image

@@ -28,3 +28,7 @@ pip install pairtools
 pip install scikit-image
 
 pip install ipywidgets
+
+pip install pysam
+pip install tabulate
+pip install deeptools

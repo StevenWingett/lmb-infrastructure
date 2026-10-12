@@ -102,4 +102,8 @@ Rscript -e "devtools::install_github('immunogenomics/presto')"
 Rscript -e  'remotes::install_github("bnprks/BPCells/r")'
 Rscript -e 'devtools::install_github("cole-trapnell-lab/monocle3")'
 
+# More
+Rscript -e 'BiocManager::install("Glimma")'
+Rscript -e 'BiocManager::install("Mus.musculus")'
+
 echo R Modules Installed
